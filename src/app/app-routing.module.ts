@@ -1,10 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { SidemenuComponent } from './sidemenu/sidemenu.component';
 
 const routes: Routes = [
   {
     path:'',component:HomeComponent
+  },
+  {
+    path:'side',component:SidemenuComponent
   }
 ];
 

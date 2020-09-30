@@ -1,0 +1,48 @@
+body{
+    overflow-x: hidden;
+    height: 100vh;
+}
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+    max-height: inherit;
+    height: 100%;
+}
+.header {
+    flex: 1;
+    background: red;
+   
+}
+.content {
+    flex: 1;
+    background: yellowgreen;
+   
+}
+.remaing {
+    flex: 1;
+    background: pink;
+   
+}
+.sidenav {
+    height: 100%;
+    width: 100vh;   
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-color: #111;
+    }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
